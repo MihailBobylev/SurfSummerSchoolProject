@@ -13,9 +13,6 @@
 		7418E0E128A0FBC300E4355B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7418E0DF28A0FBC300E4355B /* Main.storyboard */; };
 		7418E0E328A0FBC400E4355B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7418E0E228A0FBC400E4355B /* Assets.xcassets */; };
 		7418E0E628A0FBC400E4355B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7418E0E428A0FBC400E4355B /* LaunchScreen.storyboard */; };
-		7418E0F128A0FBC400E4355B /* SurfSummerSchoolProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7418E0F028A0FBC400E4355B /* SurfSummerSchoolProjectTests.swift */; };
-		7418E0FB28A0FBC400E4355B /* SurfSummerSchoolProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7418E0FA28A0FBC400E4355B /* SurfSummerSchoolProjectUITests.swift */; };
-		7418E0FD28A0FBC400E4355B /* SurfSummerSchoolProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7418E0FC28A0FBC400E4355B /* SurfSummerSchoolProjectUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +42,7 @@
 		7418E0E528A0FBC400E4355B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7418E0E728A0FBC400E4355B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7418E0EC28A0FBC400E4355B /* SurfSummerSchoolProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurfSummerSchoolProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7418E0F028A0FBC400E4355B /* SurfSummerSchoolProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfSummerSchoolProjectTests.swift; sourceTree = "<group>"; };
 		7418E0F628A0FBC400E4355B /* SurfSummerSchoolProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurfSummerSchoolProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7418E0FA28A0FBC400E4355B /* SurfSummerSchoolProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfSummerSchoolProjectUITests.swift; sourceTree = "<group>"; };
-		7418E0FC28A0FBC400E4355B /* SurfSummerSchoolProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfSummerSchoolProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				7418E0D828A0FBC300E4355B /* SurfSummerSchoolProject */,
-				7418E0EF28A0FBC400E4355B /* SurfSummerSchoolProjectTests */,
-				7418E0F928A0FBC400E4355B /* SurfSummerSchoolProjectUITests */,
 				7418E0D728A0FBC300E4355B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				7418E0E728A0FBC400E4355B /* Info.plist */,
 			);
 			path = SurfSummerSchoolProject;
-			sourceTree = "<group>";
-		};
-		7418E0EF28A0FBC400E4355B /* SurfSummerSchoolProjectTests */ = {
-			isa = PBXGroup;
-			children = (
-				7418E0F028A0FBC400E4355B /* SurfSummerSchoolProjectTests.swift */,
-			);
-			path = SurfSummerSchoolProjectTests;
-			sourceTree = "<group>";
-		};
-		7418E0F928A0FBC400E4355B /* SurfSummerSchoolProjectUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7418E0FA28A0FBC400E4355B /* SurfSummerSchoolProjectUITests.swift */,
-				7418E0FC28A0FBC400E4355B /* SurfSummerSchoolProjectUITestsLaunchTests.swift */,
-			);
-			path = SurfSummerSchoolProjectUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7418E0F128A0FBC400E4355B /* SurfSummerSchoolProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7418E0FB28A0FBC400E4355B /* SurfSummerSchoolProjectUITests.swift in Sources */,
-				7418E0FD28A0FBC400E4355B /* SurfSummerSchoolProjectUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
